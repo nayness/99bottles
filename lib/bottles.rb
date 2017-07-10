@@ -9,6 +9,9 @@ class Bottles
 		when 89
 			"89 bottles of beer on the wall, 89 bottles of beer.\n" +
 			"Take one down and pass it around, 88 bottles of beer on the wall.\n"
+		when 2
+			"2 bottles of beer on the wall, 2 bottles of beer.\n" +
+			"Take one down and pass it around, 1 bottle of beer on the wall.\n"
 		end
 	end
 end
