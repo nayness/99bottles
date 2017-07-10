@@ -1,5 +1,9 @@
 class Bottles
 
+	def song
+		verses(99,0)
+	end
+
 	def verse(n)
 
 		case n
@@ -22,4 +26,5 @@ class Bottles
 	def verses(first, last)
 		first.downto(last).collect {|bottle| verse(bottle)}.join("\n")
 	end
+
 end
