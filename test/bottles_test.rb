@@ -12,7 +12,7 @@ VERSE
   end
 
   def test_another_verse
-    skip
+    #skip
     expected = <<-VERSE
 89 bottles of beer on the wall, 89 bottles of beer.
 Take one down and pass it around, 88 bottles of beer on the wall.
